@@ -24,6 +24,7 @@ class CreateUsersTable extends Migration
             $table->integer("phone")->nullable();
             $table->date("date_of_birth")->nullable();
             $table->string("gender")->nullable();
+            $table->integer("rol")->nullable();
             $table->rememberToken();
             $table->timestamps();
         });

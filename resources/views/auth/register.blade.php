@@ -88,6 +88,7 @@
                                 <select id="gender" class="form-control @error('gender') is-invalid @enderror" name="gender" value="{{ old('gender') }}" required autocomplete="gender">
                                     <option value="male">Male</option>
                                     <option value="female">Female</option>
+                                    <option value="female">Others</option>
                                 </select>
                                 @error('gender')
                                 <span class="invalid-feedback" role="alert">

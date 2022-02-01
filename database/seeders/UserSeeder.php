@@ -44,6 +44,7 @@ class UserSeeder extends Seeder
                 'gender' => $gender,
                 'email' => $firstNames[$randomName] . $lastnames[$randomLastName] . $i . "@zubirimanteo.com",
                 'password' => bcrypt("password"),
+                'rol' => random_int(1,2)
             ]);
         }
 

@@ -27,6 +27,11 @@ class User extends Authenticatable
         'gender',
     ];
 
+    public function flight()
+    {
+        return $this->belongsToMany('App\Models\flight');
+    }
+
 
     /**
      * The attributes that should be hidden for arrays.
