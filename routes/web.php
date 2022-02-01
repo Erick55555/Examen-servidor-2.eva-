@@ -15,6 +15,8 @@ use Illuminate\Support\Facades\Route;
 
 Route::view('/', 'enunciado');
 
+Route::view("/admin", 'admin');
+
 
 Auth::routes();
 

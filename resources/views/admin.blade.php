@@ -9,7 +9,7 @@
 <body>
     <div>
         <table border="1">
-            
+            <h1>Vista admin</h1>
         </table>
     </div>
 </body>

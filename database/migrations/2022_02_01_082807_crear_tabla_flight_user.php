@@ -13,7 +13,9 @@ class CrearTablaFlightUser extends Migration
      */
     public function up()
     {
-        //
+        Schema::create('flight_user', function (Blueprint $table) {
+            $table->timestamps();
+        });
     }
 
     /**

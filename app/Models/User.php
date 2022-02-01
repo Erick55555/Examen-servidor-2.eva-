@@ -29,7 +29,7 @@ class User extends Authenticatable
 
     public function flight()
     {
-        return $this->belongsToMany('App\Models\flight');
+        return $this->belongsToMany('App\Models\flight')->withTimestamps();
     }
 
 
